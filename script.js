@@ -40,7 +40,8 @@ function agregarTarea(event) {
     
     nuevaTareaElemento.addEventListener('click', function() {
         tarea.terminada = !tarea.terminada; 
-        nuevaTareaElemento.classList.toggle('terminada'); 
+        nuevaTareaElemento.classList.toggle('terminada');
+
     });
 
     
